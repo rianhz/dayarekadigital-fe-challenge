@@ -4,6 +4,7 @@ import { IoIosRefresh } from "react-icons/io";
 import { AiOutlineFilter } from "react-icons/ai";
 import { BsPrinter } from "react-icons/bs";
 import { customers } from "../../data/customerData";
+import headerRightImage from "../../imagess/headerImg.png";
 import { ReactComponent as Detail } from "../../icons/shield.svg";
 import { ReactComponent as Edits } from "../../icons/edits.svg";
 import { ReactComponent as Trash } from "../../icons/trash.svg";
@@ -43,6 +44,7 @@ const ContentMain = () => {
 									<BsPrinter />
 								</button>
 							</div>
+							<img id="sweetheader" src={headerRightImage} alt="sweetheader" />
 						</div>
 					</div>
 

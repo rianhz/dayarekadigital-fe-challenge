@@ -28,11 +28,11 @@
 	align-items: center;
 	gap: 20px;
 	text-decoration: none;
-	border-left: 2px solid transparent;
+	border: 2px solid transparent;
 }
 
 .icons-cap.active {
-	border-left: 2px solid blue;
+	border-bottom: 2px solid rgb(198, 198, 198);
 }
 
 .menu-item {
