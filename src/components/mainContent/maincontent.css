@@ -1,0 +1,323 @@
+.main-content-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 12px;
+	gap: 16px;
+
+	background: #5d5fef;
+	border-radius: 8px;
+}
+
+span.customer {
+	font-family: "Quicksand";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	display: flex;
+	align-items: center;
+	letter-spacing: -0.02em;
+	color: #ffffff;
+}
+
+span.cap-text {
+	font-family: "Satoshi";
+	font-size: 12px;
+	line-height: 200%;
+	letter-spacing: 0.015em;
+	color: #ebfffe;
+}
+
+.button-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 13px;
+	width: 100%;
+}
+
+#add-customer {
+	transition: 0.5s;
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 170px;
+	height: 45px;
+	background: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(5px);
+	border-radius: 8px;
+	font-family: "Quicksand";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 150%;
+	display: flex;
+	align-items: center;
+	letter-spacing: -0.01em;
+	color: #ffffff;
+	border: none;
+}
+
+.input-wrapper {
+	width: 100%;
+	position: relative;
+	height: 45px;
+}
+
+#inputRadio {
+	position: absolute;
+	z-index: 2;
+	width: 16px;
+	left: 7px;
+	top: 16px;
+	border: 2px solid transparent;
+}
+
+#inputRadio:hover {
+	border: 2px solid rgba(93, 95, 239, 1);
+}
+
+#inputText {
+	border-radius: 8px;
+	position: absolute;
+	height: 45px;
+	padding: 0 40px;
+	width: 100%;
+	font-family: "Quicksand";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 150%;
+	border: none;
+	outline: none;
+	letter-spacing: -0.01em;
+}
+
+#search {
+	font-family: "Quicksand";
+	position: absolute;
+	right: 5px;
+	top: 4px;
+	padding: 8px 16px;
+	width: 78px;
+	height: 37px;
+	outline: none;
+	border: none;
+	letter-spacing: 0.7px;
+	color: #ffffff;
+	z-index: 3;
+	cursor: pointer;
+	background: #5d5fef;
+	box-shadow: 0px 10px 20px rgba(0, 185, 174, 0.05);
+	border-radius: 8px;
+	transition: all 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#search:hover {
+	background: #6d6ff3;
+}
+
+.main-btn {
+	display: flex;
+	margin-left: auto;
+	gap: 8px;
+}
+
+#filter {
+	transition: 0.5s;
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 16px;
+	gap: 12px;
+	width: 94px;
+	height: 45px;
+	background: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(5px);
+	border-radius: 8px;
+	border: none;
+	font-family: "Quicksand";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 150%;
+	color: white;
+	letter-spacing: -0.01em;
+}
+
+#refresh {
+	transition: 0.5s;
+	cursor: pointer;
+	font-family: "Quicksand";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 150%;
+	color: white;
+	letter-spacing: -0.01em;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 16px;
+	gap: 12px;
+	width: 112px;
+	height: 45px;
+	background: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(5px);
+	border-radius: 8px;
+	border: none;
+}
+
+#printer {
+	transition: 0.5s;
+	cursor: pointer;
+	font-family: "Quicksand";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 150%;
+	color: white;
+	letter-spacing: -0.01em;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 16px;
+	gap: 12px;
+	width: 48px;
+	height: 45px;
+	background: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(5px);
+	border-radius: 8px;
+	border: none;
+}
+
+#add-customer:hover,
+#filter:hover,
+#refresh:hover,
+#printer:hover {
+	background: rgba(222, 197, 197, 0.2);
+}
+
+table {
+	width: 100%;
+}
+table th {
+	font-family: "Quicksand";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 150%;
+	letter-spacing: -0.01em;
+	color: #98949e;
+	text-align: left;
+	padding: 37px 0 26px 0;
+}
+table tbody td {
+	font-family: "Quicksand";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 150%;
+	letter-spacing: -0.01em;
+	color: #110d17;
+	padding-top: 20px;
+}
+
+table tbody td p {
+	margin: auto;
+}
+
+.details-btn {
+	font-family: "Quicksand";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	letter-spacing: -0.01em;
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 4px 0;
+	gap: 3px;
+	color: #110d17;
+	border: none;
+	background: #fafafa;
+	border-radius: 4px;
+}
+
+.edits-btn {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 4px 12px;
+	gap: 8px;
+	width: 36px;
+	height: 29px;
+	background: #fafafa;
+	border-radius: 4px;
+	cursor: pointer;
+	border: none;
+}
+
+.del-btn {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 4px 12px;
+	gap: 8px;
+	width: 36px;
+	height: 29px;
+	background: #fafafa;
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+}
+
+.warga {
+	color: rgba(238, 168, 73, 1);
+}
+
+.sultan {
+	color: rgba(56, 239, 125, 1);
+}
+
+.juragan {
+	color: rgba(86, 204, 242, 1);
+}
+
+.konglomerat {
+	color: rgba(225, 0, 255, 1);
+}
+
+@media only screen and (max-width: 768px) {
+	.button-wrapper {
+		width: 100%;
+		display: block;
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		flex-direction: column;
+		gap: 14px;
+	}
+
+	.main-btn {
+		margin: 0;
+	}
+
+	#inputText {
+		width: 100%;
+	}
+}
