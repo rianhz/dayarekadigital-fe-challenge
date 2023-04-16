@@ -299,6 +299,19 @@ table tbody td p {
 	color: rgba(225, 0, 255, 1);
 }
 
+#footcap {
+	padding-top: 30px;
+	font-family: "Quicksand";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: -0.01em;
+	color: #98949e;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 @media only screen and (max-width: 768px) {
 	.button-wrapper {
 		width: 100%;
@@ -316,5 +329,26 @@ table tbody td p {
 
 	#inputText {
 		width: 100%;
+	}
+
+	#add-customer {
+		width: 100%;
+	}
+	#filter {
+		width: 100%;
+	}
+	#refresh {
+		width: 100%;
+	}
+
+	.main-btn {
+		width: 100%;
+		justify-content: space-between;
+	}
+	#footcap {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
 	}
 }

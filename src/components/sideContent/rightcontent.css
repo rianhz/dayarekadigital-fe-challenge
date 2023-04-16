@@ -82,6 +82,7 @@
 	align-items: center;
 	justify-content: center;
 }
+
 #menu-title {
 	font-family: "Quicksand";
 	font-style: normal;
@@ -109,9 +110,18 @@
 }
 
 @media only screen and (max-width: 768px) {
-	.menu-second-content {
+	p#menu-title {
+		text-align: center;
+	}
+
+	.title-second-content {
 		justify-content: center;
-		align-items: flex-start;
+		align-items: center;
+		width: 100%;
+	}
+
+	.date-second-content p {
+		text-align: center;
 	}
 
 	.menu-second-content ol li {

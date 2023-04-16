@@ -7,7 +7,7 @@ import { customers } from "../../data/customerData";
 import { ReactComponent as Detail } from "../../icons/shield.svg";
 import { ReactComponent as Edits } from "../../icons/edits.svg";
 import { ReactComponent as Trash } from "../../icons/trash.svg";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Pagination, Row } from "react-bootstrap";
 
 const ContentMain = () => {
 	return (
@@ -96,6 +96,21 @@ const ContentMain = () => {
 							})}
 						</tbody>
 					</table>
+
+					<div id="footcap">
+						Showing 10 Data Customers
+						<Pagination>
+							<Pagination.Item active className="ms-auto bg-success">
+								{1}
+							</Pagination.Item>
+							<Pagination.Item>{2}</Pagination.Item>
+							<Pagination.Item>{3}</Pagination.Item>
+							<Pagination.Ellipsis />
+							<Pagination.Item>{38}</Pagination.Item>{" "}
+							<Pagination.Next>Next</Pagination.Next>
+							<Pagination.Next />
+						</Pagination>
+					</div>
 				</Col>
 			</Row>
 		</Container>
