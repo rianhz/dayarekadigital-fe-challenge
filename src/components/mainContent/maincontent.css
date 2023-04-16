@@ -4,7 +4,6 @@
 	align-items: flex-start;
 	padding: 12px;
 	gap: 16px;
-
 	background: #5d5fef;
 	border-radius: 8px;
 }
@@ -41,10 +40,10 @@ span.cap-text {
 	transition: 0.5s;
 	cursor: pointer;
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	width: 170px;
+
+	width: 320px;
 	height: 45px;
 	background: rgba(255, 255, 255, 0.2);
 	backdrop-filter: blur(5px);
@@ -54,8 +53,6 @@ span.cap-text {
 	font-weight: 600;
 	font-size: 12px;
 	line-height: 150%;
-	display: flex;
-	align-items: center;
 	letter-spacing: -0.01em;
 	color: #ffffff;
 	border: none;
